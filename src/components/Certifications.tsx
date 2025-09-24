@@ -59,13 +59,13 @@ const Certifications = () => {
             <div className="bg-gray-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Our Certifications</h3>
               
-               <div className="grid grid-cols-3 gap-6 mb-8">
-                  <img src={docCert3} alt="Certification Logo 1" className="w-full h-20 object-contain rounded-md shadow-sm" />
-                  <img src={docCert4} alt="Certification Logo 2" className="w-full h-20 object-contain rounded-md shadow-sm" />
-                  <img src={docCert5} alt="Certification Logo 3" className="w-full h-20 object-contain rounded-md shadow-sm" />
-                  <img src={docCert6} alt="Certification Logo 4" className="w-full h-20 object-contain rounded-md shadow-sm" />
-                  <img src={docCert7} alt="Certification Logo 5" className="w-full h-20 object-contain rounded-md shadow-sm" />
-               </div>
+<div className="grid grid-cols-2 gap-8 mb-8">
+  <img src={docCert3} alt="Certification Logo 1" className="w-full h-32 object-contain rounded-lg shadow-md" />
+  <img src={docCert4} alt="Certification Logo 2" className="w-full h-32 object-contain rounded-lg shadow-md" />
+  <img src={docCert5} alt="Certification Logo 3" className="w-full h-32 object-contain rounded-lg shadow-md" />
+  <img src={docCert6} alt="Certification Logo 4" className="w-full h-32 object-contain rounded-lg shadow-md" />
+  <img src={docCert7} alt="Certification Logo 5" className="w-full h-32 object-contain rounded-lg shadow-md col-span-2 mx-auto" />
+</div>
 
               {/* Contact CTA */}
               <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-xl p-6 text-center text-white">

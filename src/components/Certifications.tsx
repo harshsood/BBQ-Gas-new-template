@@ -30,8 +30,7 @@ const Certifications = () => {
                   className="w-full h-64 object-cover rounded-xl mb-4"
                 />
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Dubai Municipality Licensed</h3>
-                  <p className="text-gray-600">Certified gas cylinder storage and distribution facility</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Al Salam Gas Distributor LLC</h3>
                 </div>
               </div>
             </div>
@@ -45,8 +44,7 @@ const Certifications = () => {
                   className="w-full h-64 object-cover rounded-xl mb-4"
                 />
                 <div className="text-center">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">ISO 9001:2015 Certified</h3>
-                  <p className="text-gray-600">Quality management system for gas cylinder services</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Al Jafliyah Gas Distribution LLC</h3>
                 </div>
               </div>
             </div>

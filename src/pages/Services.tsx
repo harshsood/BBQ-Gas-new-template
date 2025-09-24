@@ -18,7 +18,7 @@ const Services = () => {
         'Emergency refill service available'
       ],
       price: 'Starting from AED 35',
-      image: 'https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: {serviceOne},
       color: 'orange'
     },
     {
@@ -33,7 +33,7 @@ const Services = () => {
         'Flexible payment terms'
       ],
       price: 'Custom pricing available',
-      image: 'https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: {serviceTwo},
       color: 'blue'
     },
     {
@@ -48,7 +48,7 @@ const Services = () => {
         'Emergency repair service'
       ],
       price: 'Starting from AED 120',
-      image: 'https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: {serviceThree},
       color: 'green'
     }
   ];

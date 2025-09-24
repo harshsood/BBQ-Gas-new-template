@@ -33,7 +33,7 @@ const Services = () => {
         'Flexible payment terms'
       ],
       price: 'Custom pricing available',
-      image: {serviceTwo},
+      image: serviceTwo,
       color: 'blue'
     },
     {
@@ -48,7 +48,7 @@ const Services = () => {
         'Emergency repair service'
       ],
       price: 'Starting from AED 120',
-      image: {serviceThree},
+      image: serviceThree,
       color: 'green'
     }
   ];

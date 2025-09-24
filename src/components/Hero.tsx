@@ -48,7 +48,7 @@ const Hero = () => {
                   {currentText}
                   <span className="animate-pulse">|</span>
                 </span>
-                <br />New Connections & Delivery
+                <br />Supplier
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 Professional gas cylinder new connections and delivery service for homes, restaurants, and BBQ enthusiasts across Dubai. 

@@ -33,9 +33,9 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <header className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg py-2' : 'bg-white/95 backdrop-blur-sm py-4'
-      }`}>
+<header className={`fixed w-full z-50 transition-all duration-300 ${
+  isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
+}`} style={{ height: '80px' }}>
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center">

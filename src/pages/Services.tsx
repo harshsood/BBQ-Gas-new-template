@@ -1,8 +1,8 @@
 import React from 'react';
 import { Home, Building, Wrench, Clock, Shield, Truck, CheckCircle, Star, Phone } from 'lucide-react';
-import serviceOne from "../components/images/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg";
-import serviceTwo from "../components/images/3d-rendering-gas-cylinder (1).jpg";
-import serviceThree from "../components/images/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg";
+import serviceOne from "../../components/images/WhatsApp-Image-2022-09-01-at-12.27.30-PM.jpeg";
+import serviceTwo from "../../components/images/3d-rendering-gas-cylinder (1).jpg";
+import serviceThree from "../../components/images/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg";
 
 const Services = () => {
   const mainServices = [

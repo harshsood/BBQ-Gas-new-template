@@ -18,7 +18,7 @@ const Services = () => {
         'Emergency refill service available'
       ],
       price: 'Starting from AED 35',
-      image: {serviceOne},
+      image: serviceOne,
       color: 'orange'
     },
     {

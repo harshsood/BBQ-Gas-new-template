@@ -5,20 +5,17 @@ const testimonials = [
   {
     name: 'Ayesha Khan',
     role: 'Marketing Manager, Dubai Hills',
-    quote: 'Their delivery is always on time and the tracking feature is a game-changer. Highly recommended!',
-    avatar: '/avatars/ayesha.jpg'
+    quote: 'Their delivery is always on time and the tracking feature is a game-changer. Highly recommended!'
   },
   {
     name: 'Ravi Mehta',
     role: 'Restaurant Owner, JBR',
-    quote: 'Super reliable service. I’ve never had to worry about running out of gas during peak hours.',
-    avatar: '/avatars/ravi.jpg'
+    quote: 'Super reliable service. I’ve never had to worry about running out of gas during peak hours.'
   },
   {
     name: 'Fatima Al Noor',
     role: 'Home Chef, Downtown Dubai',
-    quote: 'The team is professional, responsive, and the delivery speed is unmatched.',
-    avatar: '/avatars/fatima.jpg'
+    quote: 'The team is professional, responsive, and the delivery speed is unmatched.'
   }
 ];
 
@@ -33,7 +30,7 @@ const TestimonialSlider = () => {
     return () => clearInterval(timer);
   }, [index]);
 
-  const { name, role, quote, avatar } = testimonials[index];
+  const { name, role, quote } = testimonials[index];
 
   return (
     <section className="py-20 bg-white">
@@ -47,7 +44,6 @@ const TestimonialSlider = () => {
           <Quote className="absolute top-6 left-6 text-orange-300" size={32} />
           <p className="text-xl text-gray-800 italic mb-6">"{quote}"</p>
           <div className="flex items-center justify-center gap-4">
-            <img src={avatar} alt={name} className="w-12 h-12 rounded-full object-cover" />
             <div>
               <h4 className="text-lg font-semibold text-gray-900">{name}</h4>
               <p className="text-sm text-gray-500">{role}</p>

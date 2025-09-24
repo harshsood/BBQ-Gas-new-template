@@ -116,40 +116,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Contact Methods */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Multiple ways to reach us for your gas cylinder needs
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {contactMethods.map((method, index) => (
-              <div key={index} className="bg-white border-2 border-gray-100 hover:border-orange-200 rounded-2xl p-8 text-center transition-all duration-300 hover:shadow-lg group">
-                <div className={`w-16 h-16 bg-gradient-to-r ${
-                  method.color === 'orange' ? 'from-orange-500 to-red-600' :
-                  method.color === 'green' ? 'from-green-500 to-green-600' :
-                  method.color === 'blue' ? 'from-blue-500 to-blue-600' :
-                  'from-red-500 to-red-600'
-                } rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <method.icon className="text-white" size={24} />
-                </div>
-                
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{method.title}</h3>
-                <p className="text-lg font-semibold text-blue-600 mb-2">{method.info}</p>
-                <p className="text-gray-600 mb-3">{method.description}</p>
-                <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">
-                  {method.available}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Contact Form & Info */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">

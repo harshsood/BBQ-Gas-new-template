@@ -1,6 +1,7 @@
 import React from 'react';
 import { Award, Users, Clock, MapPin, Shield, CheckCircle, Star, Truck } from 'lucide-react';
 import aboutBanner from "../components/images/WhatsApp-Image-2022-09-01-at-12.27.34-PM-1.jpeg";
+import aboutBanner2 from "../components/images/WhatsApp-Image-2022-09-01-at-12.27.36-PM.jpeg";
 
 const About = () => {
   const stats = [
@@ -175,7 +176,7 @@ const About = () => {
 
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/2539395/pexels-photo-2539395.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={aboutBanner2}
                 alt="BBQ Gas delivery service history"
                 className="w-full h-96 object-cover rounded-3xl shadow-2xl"
               />

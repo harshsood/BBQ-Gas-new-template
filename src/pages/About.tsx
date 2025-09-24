@@ -98,7 +98,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
               <img
-                src="https://images.pexels.com/photos/1123262/pexels-photo-1123262.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={aboutBanner}
                 alt="BBQ Gas professional team in Dubai"
                 className="relative w-full h-96 object-cover rounded-3xl shadow-2xl"
               />

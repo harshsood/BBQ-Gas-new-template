@@ -3,7 +3,6 @@ import { Shield, Award, CheckCircle, Phone } from 'lucide-react';
 import docCert1 from "./images/certification icon with since 1971 text.png";
 import docCert2 from "./images/certification icon with since 1975 text.png";
 
-
 const Certifications = () => {
   return (
     <section className="py-20 bg-white">

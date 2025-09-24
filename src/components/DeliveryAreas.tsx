@@ -33,12 +33,12 @@ const DeliveryAreas = () => {
       deliveryTime: '45-60 mins',
       color: 'red'
     },
-    {
-      zone: 'Northern Emirates',
-      areas: ['Sharjah', 'Ajman', 'RAK', 'Fujairah'],
-      deliveryTime: '60-90 mins',
-      color: 'indigo'
-    }
+   // {
+   //   zone: 'Northern Emirates',
+   //   areas: ['Sharjah', 'Ajman', 'RAK', 'Fujairah'],
+   //   deliveryTime: '60-90 mins',
+   //   color: 'indigo'
+  //  }
   ];
 
   const features = [

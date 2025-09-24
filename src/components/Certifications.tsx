@@ -2,7 +2,12 @@ import React from 'react';
 import { Shield, Award, CheckCircle, Phone } from 'lucide-react';
 import docCert1 from "../images/certification icon with since 1971 text.jpg";
 import docCert2 from "../images/certification icon with since 1975 text.jpg";
- 
+import docCert3 from "../images/sce-logo.png";
+import docCert4 from "../images/EAFSM.png";
+import docCert5 from "../images/download-1.png";
+import docCert6 from "../images/hah-1.jpg";
+import docCert7 from "../images/civil-defence-dubai-logo1.jpg";
+
 const Certifications = () => {
   return (
     <section className="py-20 bg-white">
@@ -54,42 +59,13 @@ const Certifications = () => {
             <div className="bg-gray-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Our Certifications</h3>
               
-              <div className="grid grid-cols-2 gap-6 mb-8">
-                <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-                    <Shield className="text-white" size={24} />
-                  </div>
-                  <p className="text-center text-sm font-medium text-gray-700">Dubai Municipality</p>
-                </div>
-
-                <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-                    <Award className="text-white" size={24} />
-                  </div>
-                  <p className="text-center text-sm font-medium text-gray-700">ISO 9001:2015</p>
-                </div>
-
-                <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-                    <CheckCircle className="text-white" size={24} />
-                  </div>
-                  <p className="text-center text-sm font-medium text-gray-700">ADNOC Approved</p>
-                </div>
-
-                <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-                    <Shield className="text-white" size={24} />
-                  </div>
-                  <p className="text-center text-sm font-medium text-gray-700">Safety Certified</p>
-                </div>
-
-                <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow col-span-2">
-                  <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-lg flex items-center justify-center mx-auto mb-3">
-                    <Award className="text-white" size={24} />
-                  </div>
-                  <p className="text-center text-sm font-medium text-gray-700">UAE Gas Supplier License</p>
-                </div>
-              </div>
+               <div className="grid grid-cols-3 gap-6 mb-8">
+                  <img src={docCert3} alt="Certification Logo 1" className="w-full h-20 object-contain rounded-md shadow-sm" />
+                  <img src={docCert4} alt="Certification Logo 2" className="w-full h-20 object-contain rounded-md shadow-sm" />
+                  <img src={docCert5} alt="Certification Logo 3" className="w-full h-20 object-contain rounded-md shadow-sm" />
+                  <img src={docCert6} alt="Certification Logo 4" className="w-full h-20 object-contain rounded-md shadow-sm" />
+                  <img src={docCert7} alt="Certification Logo 5" className="w-full h-20 object-contain rounded-md shadow-sm" />
+               </div>
 
               {/* Contact CTA */}
               <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-xl p-6 text-center text-white">

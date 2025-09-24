@@ -1,12 +1,12 @@
 import React from 'react';
 import { Shield, Award, CheckCircle, Phone } from 'lucide-react';
-import docCert1 from "../images/certification icon with since 1971 text.jpg";
-import docCert2 from "../images/certification icon with since 1975 text.jpg";
-import docCert3 from "../images/sce-logo.png";
-import docCert4 from "../images/EAFSM.png";
-import docCert5 from "../images/download-1.png";
-import docCert6 from "../images/hah-1.jpg";
-import docCert7 from "../images/civil-defence-dubai-logo1.jpg";
+import docCert1 from "./images/certification icon with since 1971 text.jpg";
+import docCert2 from "./images/certification icon with since 1975 text.jpg";
+import docCert3 from "./images/sce-logo.png";
+import docCert4 from "./images/EAFSM.png";
+import docCert5 from "./images/download-1.png";
+import docCert6 from "./images/hah-1.jpg";
+import docCert7 from "./images/civil-defence-dubai-logo1.jpg";
 
 const Certifications = () => {
   return (

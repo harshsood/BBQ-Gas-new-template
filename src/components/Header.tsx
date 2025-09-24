@@ -17,29 +17,32 @@ const Header = () => {
 
   return (
     <>
-      {/* Top Bar */}
-      <div className="bg-blue-600 text-white py-2 px-4 text-sm">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <Phone size={14} />
-              <span>+971 58 282 1712</span>
+      {/* Top Bar - Hidden on Scroll */}
+      {!isScrolled && (
+        <div className="bg-blue-600 text-white py-2 px-4 text-sm fixed w-full z-40 top-0 transition-all duration-300">
+          <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between">
+            <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-2">
+                <Phone size={14} />
+                <span>+971 58 282 1712</span>
+              </div>
+            </div>
+            <div className="hidden md:block">
+              <span>Licensed & Insured • Same Day Delivery</span>
             </div>
           </div>
-          <div className="hidden md:block">
-            <span>Licensed & Insured • Same Day Delivery</span>
-          </div>
         </div>
-      </div>
+      )}
 
       {/* Main Header */}
       <header
         className={`fixed w-full z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
-        }`}
+          isScrolled ? 'top-0' : 'top-8'
+        } ${isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'}`}
       >
         <div className="h-20 flex items-center">
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between w-full">
+            {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">🔥</span>

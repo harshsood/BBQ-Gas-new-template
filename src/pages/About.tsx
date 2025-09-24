@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Users, Clock, MapPin, Shield, CheckCircle, Star, Truck } from 'lucide-react';
+import aboutBanner from "../components/images/WhatsApp-Image-2022-09-01-at-12.27.34-PM-1.jpeg";
 
 const About = () => {
   const stats = [

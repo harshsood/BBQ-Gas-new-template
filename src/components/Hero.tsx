@@ -94,7 +94,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-400 rounded-3xl transform rotate-3 opacity-20"></div>
             <div className="relative bg-white p-8 rounded-3xl shadow-2xl">
               <img
-                src={heroBabber}
+                src={heroBanner}
                 alt="BBQ Gas Cylinder New Connection Service in Dubai"
                 className="w-full h-96 object-cover rounded-2xl"
               />
